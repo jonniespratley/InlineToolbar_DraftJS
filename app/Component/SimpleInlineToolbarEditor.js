@@ -1,10 +1,11 @@
 import React from 'react';
+
 import Editor, {createEditorStateWithText} from 'draft-js-plugins-editor'; // eslint-disable-line import/no-unresolved
 import EditorState from 'draft-js';
 import createInlineToolbarPlugin from 'draft-js-inline-toolbar-plugin';
 
 // TODO: Styles
-//import 'draft-js-inline-toolbar-plugin/lib/plugin.css';
+import 'draft-js-inline-toolbar-plugin/lib/plugin.css';
 import editorStyles from '../../public/editorStyles.css';
 //import toolbarStyle from '../../draft-js-inline-toolbar-plugin/lib-css/toolbarStyles.css';
 //import toolbarStyles from '../../draft-js-inline-toolbar-plugin/src/toolbarStyles.css';
